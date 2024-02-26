@@ -28,4 +28,3 @@ with open('game_counter.csv', 'w', encoding='utf8', newline='') as file:
     w = csv.DictWriter(file, fieldnames=['GameName', 'characters', 'nameError', 'date', 'counter'], delimiter='$')
     w.writeheader()
     w.writerows(nr)
-

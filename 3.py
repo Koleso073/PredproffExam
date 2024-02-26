@@ -27,5 +27,3 @@ with open('game.csv', encoding='utf8') as file:
                         print(s[i])
         else:
             check = False
-
-
